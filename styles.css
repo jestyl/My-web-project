@@ -16,6 +16,8 @@ p {
     font-size: 30px;
     color: #080101;
     line-height: 1.5;
+    border: 2px solid black;
+    
 }
 .lucia{
     color: darkmagenta;
@@ -24,6 +26,8 @@ p {
     font-weight: bold;
     border: 5px solid rgb(45, 6, 85);
     font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    width: 100px;
+    float: right;
 }
 #truevalue{
     font-size: xx-small;
@@ -34,6 +38,7 @@ p {
     padding: 10px;
     background-color: #080101;
     border: 5px solid greenyellow;
+    width: 100px;
 }
 p, h1 {
     text-shadow: #080101;
@@ -41,6 +46,18 @@ p, h1 {
 }
 body li {
     list-style: none;
+}
+.well{
+    background-color: #080101;
+    border: 5px solid grey;
+    color: crimson;
+    text-align: center;
+
+}
+.wer{
+    background-color: chartreuse;
+    width: 390px;
+    
 }
 a:link, a:visited {
     text-decoration: none;
@@ -50,13 +67,23 @@ a:link, a:visited {
     display: block;
     width: 300px;
     text-align: center;
-    margin-bottom: 10px;
+    margin: 10px;
+    padding: 2px;
+    float: right;
     border: 5px solid rgb(0, 66, 128);
 }
 a:hover, a:visited {
     background-color: black;
     font-size: 22px
 }
-.list li:nth-child(1) {
-    font-style: bold italic;
+.list ul:nth-child(1) {
+    font-style: bold;
+}
+.list{
+    height: 120px;
+}
+.j1 .j2 .j3 .j4 {
+    height: 30px;
+    width: 30px;
+    border: 2px solid black;
 }
